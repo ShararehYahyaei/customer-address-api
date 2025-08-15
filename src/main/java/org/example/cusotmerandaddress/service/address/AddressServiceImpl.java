@@ -45,7 +45,6 @@ public class AddressServiceImpl implements AddressService {
 
         address.setStreet(updatedAddress.getStreet());
         address.setCity(updatedAddress.getCity());
-        address.setState(updatedAddress.getState());
         address.setCountry(updatedAddress.getCountry());
         address.setPostalCode(updatedAddress.getPostalCode());
 
